@@ -6,7 +6,6 @@ async function main() {
 
 	console.log("Deploying contracts with the account:", deployer.address)
 	let deployedAddresses: Addresses = loadAddresses()
-	console.log("Deployed Addresses:", deployedAddresses);
 
 	const SymmioPartyA = await ethers.getContractFactory("SymmioPartyA")
 

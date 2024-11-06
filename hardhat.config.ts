@@ -67,7 +67,7 @@ const config: HardhatUserConfig = {
 		polygon: {
 			url: "https://polygon-rpc.com",
 			accounts: [ privateKey ],
-      gasPrice: 111 * 10**9,
+      gasPrice: 250 * 10**9,
 		},
 		zkEvm: {
 			url: "https://zkevm-rpc.com",
